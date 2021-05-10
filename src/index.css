@@ -1,0 +1,55 @@
+
+body {
+    padding-top: 80px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 6px 0 black;
+    background-color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.nav-list li:not(:last-child) {    
+    margin-right: 10px;
+}
+
+.nav-link-active {
+    color: red;
+}
+
+.back-button {
+    margin-bottom: 20px;
+}
+
+.movie-details {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.movie-poster {
+    margin-right: 10px;
+}
+
+.additional-movie-info {
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+}
+
+.movie-genre:not(:last-child) {
+    margin-right: 10px;
+}
